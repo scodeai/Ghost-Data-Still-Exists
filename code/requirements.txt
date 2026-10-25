@@ -1,0 +1,4 @@
+anthropic>=0.40        # optional: LLM for ambiguous text / condition judging / image OCR
+pypdf>=4.0             # optional: read PDF evidence
+pytesseract            # optional: OCR for image evidence (needs tesseract binary)
+Pillow

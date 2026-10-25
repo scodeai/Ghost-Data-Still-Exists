@@ -1,0 +1,216 @@
+== SAMPLE ROW PER event_type x result
+{'event_type': 'INDEX_RECORD', 'source_system': 'account_service', 'target_system': 'search_service', 'resource_id': 'search_9729', 'reported_result': 'SUCCESS', 'details': 'Customer search-index refresh processed search_9729.'}
+{'event_type': 'UPDATE_RECORD', 'source_system': 'support_platform', 'target_system': 'search_service', 'resource_id': 'support_4185', 'reported_result': 'SUCCESS', 'details': 'Support-case index update processed support_4185.'}
+{'event_type': 'UPDATE_RECORD', 'source_system': 'profile_service', 'target_system': 'account_service', 'resource_id': 'account_2689', 'reported_result': 'FAILED', 'details': 'Profile preference update processed account_2689.'}
+{'event_type': 'RETAIN_RECORD', 'source_system': 'security_service', 'target_system': 'archive_service', 'resource_id': 'audit_record_7206', 'reported_result': 'SUCCESS', 'details': 'Security-event archival processed audit_record_7206.'}
+{'event_type': 'SEND_EMAIL', 'source_system': 'notification_service', 'target_system': 'email_delivery_service', 'resource_id': 'email_delivery_354', 'reported_result': 'SUCCESS', 'details': 'Transactional email delivery processed email_delivery_354.'}
+{'event_type': 'SEND_EMAIL', 'source_system': 'notification_service', 'target_system': 'email_delivery_service', 'resource_id': 'email_delivery_9741', 'reported_result': 'PARTIAL', 'details': 'Transactional email delivery processed email_delivery_9741.'}
+{'event_type': 'SYNC_RECORD', 'source_system': 'account_service', 'target_system': 'analytics_platform', 'resource_id': 'analytics_1390', 'reported_result': 'SUCCESS', 'details': 'Customer profile synchronization processed analytics_1390.'}
+{'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_1482', 'reported_result': 'SUCCESS', 'details': 'Deletion worker submitted primary profile account_1482 to account_service.'}
+{'event_type': 'ANONYMIZE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'analytics_platform', 'resource_id': 'analytics_7277', 'reported_result': 'SUCCESS', 'details': 'Policy action completed for analytics_7277.'}
+{'event_type': 'SYNC_RECORD', 'source_system': 'account_service', 'target_system': 'analytics_platform', 'resource_id': 'analytics_7721', 'reported_result': 'PARTIAL', 'details': 'Customer profile synchronization processed analytics_7721.'}
+{'event_type': 'REFRESH_CACHE', 'source_system': 'account_service', 'target_system': 'cache_service', 'resource_id': 'cache_9558', 'reported_result': 'SUCCESS', 'details': 'Profile cache refresh processed cache_9558.'}
+{'event_type': 'CREATE_EXPORT', 'source_system': 'export_service', 'target_system': 'object_store', 'resource_id': 'export_388', 'reported_result': 'SUCCESS', 'details': 'Scheduled account export processed export_388.'}
+{'event_type': 'INDEX_RECORD', 'source_system': 'account_service', 'target_system': 'search_service', 'resource_id': 'search_9966', 'reported_result': 'PARTIAL', 'details': 'Customer search-index refresh processed search_9966.'}
+{'event_type': 'REFRESH_CACHE', 'source_system': 'account_service', 'target_system': 'cache_service', 'resource_id': 'cache_1104', 'reported_result': 'FAILED', 'details': 'Profile cache refresh processed cache_1104.'}
+{'event_type': 'REFRESH_CACHE', 'source_system': 'account_service', 'target_system': 'cache_service', 'resource_id': 'cache_2321', 'reported_result': 'PARTIAL', 'details': 'Profile cache refresh processed cache_2321.'}
+{'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_4979', 'reported_result': 'FAILED', 'details': 'Deletion worker submitted primary profile account_4979 to account_service.'}
+{'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_1506', 'reported_result': 'PARTIAL', 'details': 'Deletion worker submitted primary profile account_1506 to account_service.'}
+{'event_type': 'CHECK_DATA_FLOW', 'source_system': 'deletion_worker', 'target_system': 'integration_service', 'resource_id': 'data_flow_3518', 'reported_result': 'SUCCESS', 'details': 'Connector status check confirmed that data flow data_flow_3518 remains enabled.'}
+{'event_type': 'CHECK_RESTORE_ACCESS', 'source_system': 'deletion_worker', 'target_system': 'backup_service', 'resource_id': 'backup_8264', 'reported_result': 'SUCCESS', 'details': 'Restore-access check confirmed that archive backup_8264 can still be restored.'}
+{'event_type': 'REDACT_RECORD', 'source_system': 'deletion_worker', 'target_system': 'support_platform', 'resource_id': 'support_9251', 'reported_result': 'FAILED', 'details': 'Deletion worker received the final result for support_9251 from support_platform.'}
+{'event_type': 'UPDATE_RECORD', 'source_system': 'support_platform', 'target_system': 'search_service', 'resource_id': 'support_8133', 'reported_result': 'PARTIAL', 'details': 'Support-case index update processed support_8133.'}
+{'event_type': 'INDEX_RECORD', 'source_system': 'account_service', 'target_system': 'search_service', 'resource_id': 'search_4101', 'reported_result': 'FAILED', 'details': 'Customer search-index refresh processed search_4101.'}
+{'event_type': 'REDACT_RECORD', 'source_system': 'deletion_worker', 'target_system': 'support_platform', 'resource_id': 'support_7724', 'reported_result': 'SUCCESS', 'details': 'Policy action completed for support_7724.'}
+{'event_type': 'DISABLE_DATA_FLOW', 'source_system': 'deletion_worker', 'target_system': 'integration_service', 'resource_id': 'data_flow_6987', 'reported_result': 'SUCCESS', 'details': 'Policy action completed for data_flow_6987.'}
+{'event_type': 'BLOCK_RESTORE', 'source_system': 'deletion_worker', 'target_system': 'backup_service', 'resource_id': 'backup_6344', 'reported_result': 'SUCCESS', 'details': 'Policy action completed for backup_6344.'}
+{'event_type': 'SEND_EMAIL', 'source_system': 'notification_service', 'target_system': 'email_delivery_service', 'resource_id': 'email_delivery_3207', 'reported_result': 'FAILED', 'details': 'Transactional email delivery processed email_delivery_3207.'}
+{'event_type': 'RETAIN_RECORD', 'source_system': 'security_service', 'target_system': 'archive_service', 'resource_id': 'audit_record_9373', 'reported_result': 'PARTIAL', 'details': 'Security-event archival processed audit_record_9373.'}
+{'event_type': 'ANONYMIZE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'analytics_platform', 'resource_id': 'analytics_9920', 'reported_result': 'FAILED', 'details': 'Deletion worker received the final result for analytics_9920 from analytics_platform.'}
+{'event_type': 'REDACT_RECORD', 'source_system': 'deletion_worker', 'target_system': 'support_platform', 'resource_id': 'support_193', 'reported_result': 'PARTIAL', 'details': 'Deletion worker received the final result for support_193 from support_platform.'}
+{'event_type': 'ANONYMIZE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'analytics_platform', 'resource_id': 'analytics_8476', 'reported_result': 'PARTIAL', 'details': 'Deletion worker received the final result for analytics_8476 from analytics_platform.'}
+{'event_type': 'SYNC_RECORD', 'source_system': 'account_service', 'target_system': 'analytics_platform', 'resource_id': 'analytics_8475', 'reported_result': 'FAILED', 'details': 'Customer profile synchronization processed analytics_8475.'}
+{'event_type': 'CREATE_EXPORT', 'source_system': 'export_service', 'target_system': 'object_store', 'resource_id': 'export_1963', 'reported_result': 'FAILED', 'details': 'Scheduled account export processed export_1963.'}
+{'event_type': 'RETAIN_RECORD', 'source_system': 'security_service', 'target_system': 'archive_service', 'resource_id': 'audit_record_8597', 'reported_result': 'FAILED', 'details': 'Security-event archival processed audit_record_8597.'}
+{'event_type': 'CREATE_EXPORT', 'source_system': 'export_service', 'target_system': 'object_store', 'resource_id': 'export_4620', 'reported_result': 'PARTIAL', 'details': 'Scheduled account export processed export_4620.'}
+{'event_type': 'RESTORE_BACKUP', 'source_system': 'backup_service', 'target_system': 'search_service', 'resource_id': 'backup_9287', 'reported_result': 'SUCCESS', 'details': 'Restore job repopulated downstream resource search_4882.'}
+{'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_2461', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_2461 as non-deletion; no destructive action was authorized.'}
+{'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'account_service', 'resource_id': 'account_5762', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked account_5762 (account_5762) to haruka.s1838@zoho.com and user_11.'}
+
+== CLASSIFY_REQUEST / LINK_RESOURCE_IDENTITY rows
+{'activity_id': 'activity_3486', 'event_time': '2026-08-28T11:07:25Z', 'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_2461', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_2461 as non-deletion; no destructive action was authorized.'}
+{'activity_id': 'activity_3512', 'event_time': '2026-08-29T10:47:38Z', 'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_2176', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_2176 as non-deletion; no destructive action was authorized.'}
+{'activity_id': 'activity_3531', 'event_time': '2026-08-30T10:58:51Z', 'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_9321', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_9321 as non-deletion; no destructive action was authorized.'}
+{'activity_id': 'activity_3618', 'event_time': '2026-09-03T11:09:05Z', 'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_6486', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_6486 as non-deletion; no destructive action was authorized.'}
+{'activity_id': 'activity_3648', 'event_time': '2026-09-04T10:49:18Z', 'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_7452', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_7452 as non-deletion; no destructive action was authorized.'}
+{'activity_id': 'activity_3659', 'event_time': '2026-09-05T11:00:31Z', 'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_5605', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_5605 as non-deletion; no destructive action was authorized.'}
+{'activity_id': 'activity_3741', 'event_time': '2026-09-09T11:11:44Z', 'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_7821', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_7821 as non-deletion; no destructive action was authorized.'}
+{'activity_id': 'activity_3778', 'event_time': '2026-09-10T10:51:57Z', 'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_5835', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_5835 as non-deletion; no destructive action was authorized.'}
+{'activity_id': 'activity_3789', 'event_time': '2026-09-11T11:02:11Z', 'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_1733', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_1733 as non-deletion; no destructive action was authorized.'}
+{'activity_id': 'activity_3827', 'event_time': '2026-09-13T10:56:12Z', 'event_type': 'CLASSIFY_REQUEST', 'source_system': 'privacy_intake', 'target_system': 'privacy_case_management', 'resource_id': 'account_228', 'reported_result': 'SUCCESS', 'details': 'Privacy intake classified request for account_228 as non-deletion; no destructive action was authorized.'}
+{'activity_id': 'activity_4000', 'event_time': '2026-09-26T11:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'account_service', 'resource_id': 'account_5762', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked account_5762 (account_5762) to haruka.s1838@zoho.com and user_11.'}
+{'activity_id': 'activity_4001', 'event_time': '2026-09-01T06:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'search_service', 'resource_id': 'search_428', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked search_428 (search_428) to g.silva76@gmail.com and user_13.'}
+{'activity_id': 'activity_4002', 'event_time': '2026-08-07T08:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'integration_service', 'resource_id': 'data_flow_1121', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked data_flow_1121 (data_flow_1121) to jain.aditi@gmail.com and user_14.'}
+{'activity_id': 'activity_4003', 'event_time': '2026-07-13T10:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'analytics_platform', 'resource_id': 'analytics_7438', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked analytics_7438 (analytics_7438) to darwish.omar@icloud.com and user_20.'}
+{'activity_id': 'activity_4004', 'event_time': '2026-06-18T12:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'export_service', 'resource_id': 'export_1260', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked export_1260 (export_1260) to ingrid.dahl@outlook.com and user_18.'}
+{'activity_id': 'activity_4005', 'event_time': '2026-05-24T07:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'support_platform', 'resource_id': 'support_1034', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked support_1034 (support_1034) to kagyeman8947@fastmail.com and user_22.'}
+{'activity_id': 'activity_4006', 'event_time': '2026-04-29T09:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'backup_service', 'resource_id': 'backup_9287', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked backup_9287 (backup_9287) to areed1433@gmail.com and user_16.'}
+{'activity_id': 'activity_4007', 'event_time': '2026-02-13T08:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'object_storage', 'resource_id': 'object_19', 'reported_result': 'SUCCESS', 'details': 'Attachment catalog confirmed object_19 (delivery_confirmation_19.pdf) belongs only to priya.raman@gmail.com and user_07; no other subject is linked.'}
+{'activity_id': 'activity_4008', 'event_time': '2026-09-16T07:27:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'marketing_platform', 'resource_id': 'marketing_001', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked marketing_001 (marketing_001) to kwame-mensah@proton.me and user_09.'}
+{'activity_id': 'activity_4009', 'event_time': '2026-07-18T11:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'export_service', 'resource_id': 'export_1842', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked export_1842 (NST-2026-0718-1842) to ingrid.dahl@outlook.com and user_18.'}
+{'activity_id': 'activity_4010', 'event_time': '2026-09-05T07:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'security_service', 'resource_id': 'audit_record_003', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked audit_record_003 (audit_record_003) to oliver-bennett@gmail.com and user_03.'}
+{'activity_id': 'activity_4011', 'event_time': '2026-03-10T06:07:01Z', 'event_type': 'LINK_RESOURCE_IDENTITY', 'source_system': 'data_catalog', 'target_system': 'identity_service', 'resource_id': 'tombstone_17', 'reported_result': 'SUCCESS', 'details': 'Data catalog linked tombstone_17 (user_17) to leonie.g9352@outlook.com and user_17.'}
+
+== audit field_name: Counter({'email': 107, 'email_hash': 107, 'phone': 92})
+
+######## case_02: mateo.rios@outlook.com requested=2026-08-21T18:06:00Z audit=2026-09-04T15:00:00Z reported=PARTIALLY_COMPLETE
+request_text: Intenté eliminar mi cuenta ayer, pero la página terminó mostrando un error. ¿Pueden comprobar si todavía queda algún dato y completar la eliminación si hace falta?
+identity: {'user_id': 'user_02', 'name': 'Mateo Ríos', 'email': 'mateo.rios@outlook.com', 'phone': '+34 612 847 593', 'email_hash': 'fad1c282b6b8ff346ee92e617331f69c2b6bb345af954eeb44581c57529eab9d', 'updated_at': '2026-04-24T07:44:00Z'}
+expected: COMPLETE [{"evidence_id":"evidence_54","operation":"VERIFY_RECORD_ABSENT","phase":"VERIFICATION","resource_id":"account_002","state":"ABSENT","step_no":1,"system_id":"account_service"}]
+ACT: {'event_time': '2026-08-22T07:30:03Z', 'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_002', 'reported_result': 'PARTIAL', 'details': 'Deletion worker completed some internal work but could not confirm the final state. Target resource: account_002.'}
+
+######## case_03: l.fontaine46@yahoo.com requested=2026-09-13T11:00:00Z audit=2026-09-26T11:00:00Z reported=COMPLETE
+request_text: Je demande la suppression définitive du compte associé à cette adresse e-mail. Veuillez examiner les identifiants actuels et antérieurs conformément à votre procédure de confidentialité. Merci de confirmer le résultat une fois la vérification terminée.
+identity: {'user_id': 'user_43', 'name': 'Louis Fontaine', 'email': 'l.fontaine46@yahoo.com', 'phone': '+33 6 80 08 96 38', 'email_hash': '4b065493f4403c03ee3cd593b75b03cb6085134a7acb5c5c63ed71d3da346c77', 'updated_at': '2026-01-04T21:41:00Z'}
+expected: COMPLETE [{"step_no":1,"phase":"VERIFICATION","system_id":"account_service","resource_id":"account_7566","operation":"VERIFY_RECORD_ABSENT","state":"ABSENT","evidence_id":"evidence_94"},{"step_no":2,"phase":"VERIFICATION","system_id":"security_service","resource_id":"audit_record_2016","operation":"VERIFY_RECORD_PRESENT","state":"PRESENT","evidence_id":"evidence_94"},{"step_no":3,"phase":"VERIFICATION","system_id":"analytics_platform","resource_id":"analytics_9406","operation":"VERIFY_RECORD_ANONYMIZED","state":"ANONYMIZED","evidence_id":"evidence_94"}]
+EVID-by-email evidence_94: er_email=zofia-dvorak79@proton.me requester_phone=null 2026-09-26T08:57:37Z level=DEBUG service=account_service trace_id=rb-085737-009 event=profile_lookup_started resource_id=account_7566 lookup_key=l.fontaine46@yahoo.com 2026-09-26T08:57:37Z level=INFO service=account_service trace_id=rb-085737-009 event=profile_lookup_completed resource_id=account_7566 rows=0 http_status=404 2026-09-26T08:57:38Z level=DEBUG service=analytics_platform trace_id=rb-085738-010 event=analytics_profile_read_started
+ACT: {'event_time': '2026-09-15T10:07:35Z', 'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_7566', 'reported_result': 'SUCCESS', 'details': 'Deletion worker submitted primary profile account_7566 to account_service.'}
+EVID account_7566 in evidence_94: oton.me requester_phone=null 2026-09-26T08:57:37Z level=DEBUG service=account_service trace_id=rb-085737-009 event=profile_lookup_started resource_id=account_7566 lookup_key=l.fontaine46@yahoo.com 2026-09-26T08:57:37Z level=INFO service=account_service trace_id=rb-085737-009 event=profile_lookup_completed resource_id=account_7566 rows=0 http_status=404 2026-09-26T08:57:38Z level=DEBUG service=analytics_platform trace_id=rb-085738-010 event=analytics_profile_read_started resource_id=analytics_558
+EVID audit_record_2016 in evidence_94:  customer_reference=null 2026-09-26T09:40:29Z level=DEBUG service=security_service trace_id=rb-094029-017 event=audit_record_read_started resource_id=audit_record_2016 lookup_key=user_43 2026-09-26T09:40:29Z level=INFO service=security_service trace_id=rb-094029-017 event=audit_record_read_completed resource_id=audit_record_2016 rows=1 subject_reference=user_43 event_code=IDENTITY_CHANGE_RECORDED retention_until=2034-09-30T23:59:59Z 2026-09-26T09:41:03Z level=DEBUG service=search_service trace_i
+ACT: {'event_time': '2026-09-15T10:31:16Z', 'event_type': 'ANONYMIZE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'analytics_platform', 'resource_id': 'analytics_9406', 'reported_result': 'SUCCESS', 'details': 'Policy action completed for analytics_9406.'}
+EVID analytics_9406 in evidence_94: er_reference=null 2026-09-26T09:54:09Z level=DEBUG service=analytics_platform trace_id=rb-095409-021 event=analytics_profile_read_started resource_id=analytics_9406 lookup_key=null 2026-09-26T09:54:09Z level=INFO service=analytics_platform trace_id=rb-095409-021 event=analytics_profile_read_completed resource_id=analytics_9406 customer_reference=null email=null phone=null email_hash=null audience_cohort=general_shopper 2026-09-26T09:58:35Z level=DEBUG service=search_service trace_id=rb-095835-02
+
+######## case_05: leila.haddad@yahoo.com requested=2026-08-27T14:17:00Z audit=2026-09-08T13:40:00Z reported=COMPLETE
+request_text: I deleted this account and received a confirmation, but the same email address is still recognized. Please remove any remaining copy of my profile.
+identity: {'user_id': 'user_05', 'name': 'Leila Haddad', 'email': 'leila.haddad@yahoo.com', 'phone': '+212 6 48 27 15 93', 'email_hash': '62667ed065b846a842474f916da51b658edb0f9754ab2da6bf38e68779ff0d08', 'updated_at': '2026-02-14T17:33:00Z'}
+expected: INCOMPLETE [{"evidence_id":"evidence_54","operation":"REPORT_REMAINING_RECORD","phase":"FINDING","resource_id":"account_005","state":"PRESENT","step_no":1,"system_id":"account_service"},{"evidence_id":"","operation":"DELETE_RECORD","phase":"REMEDIATION","resource_id":"account_005","state":"ABSENT","step_no":2,"system_id":"account_service"},{"evidence_id":"","operation":"VERIFY_RECORD_ABSENT","phase":"VERIFICATION","resource_id":"account_005","state":"ABSENT","step_no":3,"system_id":"account_service"}]
+EVID-by-email evidence_54: ne TEXT NOT NULL,                 account_status TEXT NOT NULL, updated_at TEXT NOT NULL             ); INSERT INTO "customer_profiles_failover_replica" VALUES('account_005','user_05','Leila Haddad','leila.haddad@yahoo.com','+212 6 48 27 15 93','ACTIVE','2026-09-02T22:45:00Z'); INSERT INTO "customer_profiles_failover_replica" VALUES('account_8741','user_8741','Karim El-Masri','karim.elmasri@gmail.com','+971 50 731 6284','ACTIVE','2026-09-02T22:45:00Z'); INSERT INTO "customer_profiles_failover_re
+ACT: {'event_time': '2026-08-28T09:11:01Z', 'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_005', 'reported_result': 'SUCCESS', 'details': 'Deletion worker reported the requested operation as completed. Target resource: account_005.'}
+ACT: {'event_time': '2026-08-28T09:11:09Z', 'event_type': 'SYNC_RECORD', 'source_system': 'account_service', 'target_system': 'account_failover_replica', 'resource_id': 'account_005', 'reported_result': 'SUCCESS', 'details': 'Replication worker reported its final checkpoint. Target resource: account_005.'}
+EVID account_005 in evidence_54:  NULL,                 account_status TEXT NOT NULL, updated_at TEXT NOT NULL             ); INSERT INTO "customer_profiles_failover_replica" VALUES('account_005','user_05','Leila Haddad','leila.haddad@yahoo.com','+212 6 48 27 15 93','ACTIVE','2026-09-02T22:45:00Z'); INSERT INTO "customer_profiles_failover_replica" VALUES('account_8741','user_8741','Karim El-Masri','karim.elmasri@gmail.com','+971 50 731 6284','ACTIVE','2026-09-02T22:45:00Z'); INSERT INTO "customer_profiles_failover_replica" VALU
+
+######## case_29: noah.f438085@outlook.com requested=2026-08-27T12:00:00Z audit=2026-09-15T12:00:00Z reported=NOT_STARTED
+request_text: I used a different email on this account before changing it. Please remove records under both addresses and switch off any integration that could copy them back into search or analytics.
+identity: None
+expected: INCOMPLETE [{"step_no":1,"phase":"FINDING","system_id":"search_service","resource_id":"search_1993","operation":"REPORT_REMAINING_RECORD","state":"PRESENT","evidence_id":"evidence_92"},{"step_no":2,"phase":"FINDING","system_id":"analytics_platform","resource_id":"analytics_5208","operation":"REPORT_EXPOSED_PII","state":"PRESENT","evidence_id":"evidence_92"},{"step_no":3,"phase":"FINDING","system_id":"support_platform","resource_id":"support_5281","operation":"REPORT_EXPOSED_PII","state":"PRESENT","evidence_id":"evidence_92"},{"step_no":4,"phase":"FINDING","system_id":"integration_service","resource_id":"data_flow_3827","operation":"REPORT_ACTIVE_DATA_FLOW","state":"ACTIVE","evidence_id":"evidence_92"},{"step_no":5,"phase":"REMEDIATION","system_id":"integration_service","resource_id":"data_flow_3827","operation":"DISABLE_DATA_FLOW","state":"DISABLED","evidence_id":""},{"step_no":6,"phase":"REMEDIATION","system_id":"search_service","resource_id":"search_1993","operation":"DELETE_RECORD","state":"ABSENT","evidence_id":""},{"step_no":7,"phase":"REMEDIATION","system_id":"support_platform","resource_id":"support_5281","operation":"REDACT_RECORD","state":"REDACTED","evidence_id":""},{"step_no":8,"phase":"REMEDIATION","system_id":"analytics_platform","resource_id":"analytics_5208","operation":"ANONYMIZE_RECORD","state":"ANONYMIZED","evidence_id":""},{"step_no":9,"phase":"VERIFICATION","system_id":"account_service","resource_id":"account_7012","operation":"VERIFY_RECORD_ABSENT","state":"ABSENT","evidence_id":""},{"step_no":10,"phase":"VERIFICATION","system_id":"search_service","resource_id":"search_1993","operation":"VERIFY_RECORD_ABSENT","state":"ABSENT","evidence_id":""},{"step_no":11,"phase":"VERIFICATION","system_id":"security_service","resource_id":"audit_record_3954","operation":"VERIFY_RECORD_PRESENT","state":"PRESENT","evidence_id":""},{"step_no":12,"phase":"VERIFICATION","system_id":"support_platform","resource_id":"support_5281","operation":"VERIFY_RECORD_REDACTED","state":"REDACTED","evidence_id":""},{"step_no":13,"phase":"VERIFICATION","system_id":"analytics_platform","resource_id":"analytics_5208","operation":"VERIFY_RECORD_ANONYMIZED","state":"ANONYMIZED","evidence_id":""},{"step_no":14,"phase":"VERIFICATION","system_id":"integration_service","resource_id":"data_flow_3827","operation":"VERIFY_DATA_FLOW_DISABLED","state":"DISABLED","evidence_id":""}]
+EVID-by-email evidence_02:      {           "resource_id": "data_flow_3827",           "connector_name": "customer-events-to-warehouse-4",           "destination": "customer_analytics_warehouse",           "subject_selector": "noah.f438085@outlook.com",           "enabled": true,           "mode": "continuous_sync"         },         {           "resource_id": "data_flow_8524",           "connector_name": "customer-events-to-warehouse-5",           "destination": "customer_analytics_warehouse",           "subject_selector
+ACT: {'event_time': '2026-08-30T13:16:19Z', 'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'search_service', 'resource_id': 'search_1993', 'reported_result': 'FAILED', 'details': 'Deletion worker received the final result for search_1993 from search_service.'}
+EVID search_1993 in evidence_02:           "email": "keiko.nakamura@gmail.com",             "customer_reference": "user_24"           }         },         {           "resource_id": "search_1993",           "index_name": "customer_directory_v3",           "document": {             "display_name": "Noah Foster",             "email": "noah.f438085@outlook.com",             "customer_reference": "user_29"           }         },         {           "resource_id": "search_9359",           "index_name": "customer_directory_v3",      
+EVID search_1993 in evidence_92:               "email": "noah.f438085@outlook.com",                 "email_hash": null,                 "phone": null,                 "resource_id": "search_1993"               }             ],             "total": 1           },           "observed_at": "2026-09-15T09:14:18Z",           "query": "noah.f438085@outlook.com",           "resource_id": "search_1993"         },         {           "hits": {             "documents": [               {                 "customer_reference": null,        
+ACT: {'event_time': '2026-08-30T13:54:18Z', 'event_type': 'ANONYMIZE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'analytics_platform', 'resource_id': 'analytics_5208', 'reported_result': 'FAILED', 'details': 'Deletion worker received the final result for analytics_5208 from analytics_platform.'}
+EVID analytics_5208 in evidence_02: ed",               "product": "Smart desk lamp",               "quantity": 2             }           ]         },         {           "resource_id": "analytics_5208",           "user_id": "user_29",           "email": "noah.f4380@outlook.com",           "phone": "+1 (312) 555-0129",           "email_hash": "b1d07882c40af50936b997d454d5c6518ec22754eedbbf86ca9f6a3c30cc4cf0",           "reporting_window": "last_90_days",           "metrics": {             "sessions_30d": 8,             "products_vi
+EVID analytics_5208 in evidence_92: 38085@outlook.com",           "email_hash": null,           "observed_at": "2026-09-15T11:38:32Z",           "phone": null,           "resource_id": "analytics_5208"         },         {           "audience_cohort": "returning_customer",           "customer_reference": null,           "email": null,           "email_hash": null,           "observed_at": "2026-09-15T09:34:42Z",           "phone": null,           "resource_id": "analytics_5335"         },         {           "audience_cohort": "ge
+ACT: {'event_time': '2026-08-30T13:35:48Z', 'event_type': 'REDACT_RECORD', 'source_system': 'deletion_worker', 'target_system': 'support_platform', 'resource_id': 'support_5281', 'reported_result': 'FAILED', 'details': 'Deletion worker received the final result for support_5281 from support_platform.'}
+EVID support_5281 in evidence_02:   "subject_reference": "user_28",           "channel": "email",           "message_text": "[REDACTED]"         },         {           "resource_id": "support_5281",           "ticket_id": "CS-4281",           "subject_reference": "user_29",           "channel": "email",           "message_text": "Please send the delivery update to noah.f438085@outlook.com. The affected order includes: Running shoes."         },         {           "resource_id": "support_6477",           "ticket_id": "CS-5477", 
+EVID support_5281 in evidence_92:         "requester_email": "noah.f438085@outlook.com",           "requester_name": null,           "requester_phone": null,           "resource_id": "support_5281"         },         {           "customer_reference": null,           "message_excerpt": "Customer supplied contact details for a delivery query.",           "observed_at": "2026-09-15T09:03:40Z",           "requester_email": "camille.bernard86@outlook.com",           "requester_name": null,           "requester_phone": null,          
+ACT: {'event_time': '2026-08-30T12:57:49Z', 'event_type': 'CHECK_DATA_FLOW', 'source_system': 'deletion_worker', 'target_system': 'integration_service', 'resource_id': 'data_flow_3827', 'reported_result': 'SUCCESS', 'details': 'Connector status check confirmed that data flow data_flow_3827 remains enabled.'}
+EVID data_flow_3827 in evidence_02:         "subject_selector": "user_28",           "enabled": false,           "mode": "continuous_sync"         },         {           "resource_id": "data_flow_3827",           "connector_name": "customer-events-to-warehouse-4",           "destination": "customer_analytics_warehouse",           "subject_selector": "noah.f438085@outlook.com",           "enabled": true,           "mode": "continuous_sync"         },         {           "resource_id": "data_flow_8524",           "connector_name": "
+EVID data_flow_3827 in evidence_92:            "enabled": true,           "last_delivery_status": "delivered",           "observed_at": "2026-09-15T08:56:38Z",           "resource_id": "data_flow_3827"         },         {           "connector_name": "customer_events_connector",           "customer_email": null,           "customer_reference": "user_26",           "enabled": false,           "last_delivery_status": "stopped",           "observed_at": "2026-09-15T10:15:29Z",           "resource_id": "data_flow_6244"         },     
+ACT: {'event_time': '2026-08-30T11:06:57Z', 'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_7012', 'reported_result': 'FAILED', 'details': 'Deletion worker submitted primary profile account_7012 to account_service.'}
+EVID audit_record_3954 in evidence_02:            "integrity_seal": "sha256:0000000000000000000000000000000000000000000000000000000000002431"         },         {           "resource_id": "audit_record_3954",           "subject_reference": "user_29",           "event_name": "account_deletion_reviewed",           "actor_type": "automated_privacy_workflow",           "integrity_seal": "sha256:0000000000000000000000000000000000000000000000000000000000000f72"         },         {           "resource_id": "audit_record_1707",           "s
+
+== PROBLEM STATEMENT (from Required Output)
+Required Output
+
+Produce exactly one row in `output.csv` for every case in `deletion_requests.csv`:
+
+```text
+case_id,deletion_status,steps_json
+```
+
+| Column | Meaning |
+| --- | --- |
+| `case_id` | Case being audited |
+| `deletion_status` | `COMPLETE`, `INCOMPLETE`, or `NOT_APPLICABLE` |
+| `steps_json` | Ordered JSON array of findings, remediation actions, and verification checks |
+
+The final file must contain exactly 518 data rows, sorted by `case_id`.
+
+Each object in `steps_json` must contain:
+
+```json
+{
+  "step_no": 1,
+  "phase": "FINDING",
+  "system_id": "account_service",
+  "resource_id": "account_005",
+  "operation": "REPORT_REMAINING_RECORD",
+  "state": "PRESENT",
+  "evidence_id": "evidence_01"
+}
+```
+
+`phase` must be `FINDING`, `REMEDIATION`, or `VERIFICATION`. Step numbers start at `1` and increase consecutively. Array order is significant.
+
+For `COMPLETE`, include only verification steps proving the current state. For `INCOMPLETE`, include findings, the complete remediation plan, and the checks that must pass afterward. For `NOT_APPLICABLE`, use an empty JSON array (`[]`) because no deletion or deletion verification is authorized.
+
+A non-deletion row therefore has this form:
+
+```csv
+case_000,NOT_APPLICABLE,[]
+```
+
+The grader parses `steps_json` as JSON. JSON object-key order and whitespace are ignored; array order is not.
+
+## Allowed Operations
+
+| Phase | Operation | State | Meaning |
+| --- | --- | --- | --- |
+| `FINDING` | `REPORT_REMAINING_RECORD` | `PRESENT` | A record that should have been deleted still exists. |
+| `FINDING` | `REPORT_EXPOSED_PII` | `PRESENT` | A record may remain, but it still contains identifiers that should have been redacted or anonymized. |
+| `FINDING` | `REPORT_ACTIVE_DATA_FLOW` | `ACTIVE` | An active process can copy or recreate the user's data. |
+| `FINDING` | `REPORT_RESTORE_RISK` | `ACTIVE` | A backup or restore path can bring deleted data back. |
+| `REMEDIATION` | `DISABLE_DATA_FLOW` | `DISABLED` | Stop the process that can copy or recreate the data. |
+| `REMEDIATION` | `BLOCK_RESTORE` | `BLOCKED` | Prevent the affected backup from restoring the user's data. |
+| `REMEDIATION` | `DELETE_RECORD` | `ABSENT` | Remove the entire record. |
+| `REMEDIATION` | `REDACT_RECORD` | `REDACTED` | Keep the record but remove the identifying fields required by policy. |
+| `REMEDIATION` | `ANONYMIZE_RECORD` | `ANONYMIZED` | Keep the record after irreversibly unlinking it from the user. |
+| `VERIFICATION` | `VERIFY_RECORD_ABSENT` | `ABSENT` | Confirm that a record no longer exists. |
+| `VERIFICATION` | `VERIFY_RECORD_PRESENT` | `PRESENT` | Confirm that a policy-required retained record still exists. |
+| `VERIFICATION` | `VERIFY_RECORD_REDACTED` | `REDACTED` | Confirm that required identifying fields have been removed. |
+| `VERIFICATION` | `VERIFY_RECORD_ANONYMIZED` | `ANONYMIZED` | Confirm that the record can no longer be linked to the user. |
+| `VERIFICATION` | `VERIFY_DATA_FLOW_DISABLED` | `DISABLED` | Confirm that the relevant data flow is inactive. |
+| `VERIFICATION` | `VERIFY_RESTORE_BLOCKED` | `BLOCKED` | Confirm that the affected data cannot be restored. |
+
+## Rules
+
+- Resolve the user’s current and historical identifiers.
+- Determine the resource state at `audit_at` using the available evidence. Reported workflow statuses and operation results are claims.
+- Apply `deletion_rules.csv` to every relevant record, including account tombstones, active data flows, and restore risks.
+- Order steps by phase: findings, remediation, then verification. Within each phase, follow the operation order in the table above, followed by `system_id` and `resource_id` in ascending order.
+- Findings and verification steps for `COMPLETE` cases must cite a `file_id`, `activity_id`, or `audit_id`. Proposed remediation and future verification steps for `INCOMPLETE` cases use an empty `evidence_id`.
+
+## Evaluation
+
+`output.csv` will be compared with hidden canonical answers. Scoring will consider the correctness of `deletion_status`, identity resolution, discovered records and risks, cited evidence, policy decisions, and the completeness and order of `steps_json`.
+
+Your `code.zip` must include `evaluation/evaluation_report.md` containing:
+
+- case-level status accuracy;
+- step-level and field-level accuracy;
+- sequence accuracy;
+- at least three additional evaluation cases created by your team; and
+- failures found and improvements made.
+
+## Submission
+
+| Item | Description |
+| --- | --- |
+| `code.zip` | Runnable solution, prompts, configuration, README, and `evaluation/` folder |
+| `output.csv` | One answer row for every request |
+| `chat_transcript` | Transcript showing how the system was developed or used |
+| AI interview | Explanation of the approach and evaluation |
+
+### Token Usage and Cost Analysis
+
+Your `code.zip` must include one token-usage file:
+
+```text
+evaluation/usage_report.md
+```
+
+The report must summarize the final full-dataset run that produced `output.csv`, including model providers and names, model calls, input and output tokens, total and average tokens per request, and estimated total and per-request cost. If multiple models are used, include both per-model and overall totals in the same file.
+
+Do not include API keys, credentials, or sensitive configuration values in the submission.
+
+These are the required deliverables. Participants are encouraged to improve retrieval, multimodal interpretation, identity and deletion-state reconstruction, remediation planning, deterministic verification, batching, caching, and token efficiency.
